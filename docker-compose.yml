@@ -1,0 +1,6 @@
+services:
+  app:
+    build: .
+    container_name: flight-optimizer
+    volumes:
+      - .:/app #me permet de modifier mon code sans avoir à le reconstruire à chaque fois
