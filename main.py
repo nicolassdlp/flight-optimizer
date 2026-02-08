@@ -35,7 +35,7 @@ def calculate_flight(dep_conso, arr_conso):
     print(f"\n--- Rapport de vol : {dep_conso} -> {arr_conso} ---")
     print(f"Distance : {distance_km:.2f} km")
     print(f"Temps de vol : {temps_vol:.2f} h")
-    print(f"Consommation de carburant : {consommation_kg:.2f} kg/h")
+    print(f"Consommation de carburant : {consommation_kg:.2f} kg")
     print("-" * 40)
 
 if __name__ == "__main__":
